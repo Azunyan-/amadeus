@@ -1,5 +1,5 @@
 html {
-	background-image: url(../images/pattern2.png);
+	background-image: url(../images/pattern1.png);
 	background-repeat: repeat;
 
 /*	background:#505D6E url(../images/body3.png) no-repeat center center fixed; 
@@ -46,7 +46,7 @@ body {
 }
 **/
 
-#christina {
+#character {
 	position: relative;
 	#background-image: url(../images/kurisu_jacket/CRS_AMB01a.png);
 	background-size: contain;

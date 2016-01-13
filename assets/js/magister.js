@@ -81,7 +81,7 @@ $(function () {
 				pre = preJacket;
 			}
 
-			$("#christina").css("background-image", "url(" + pre + sprites[getRandomInt(0, sprites.length-1)] + ")");
+			$("#character").css("background-image", "url(" + pre + sprites[getRandomInt(0, sprites.length-1)] + ")");
 		});	
 	}
 
@@ -101,7 +101,7 @@ $(function () {
 					if(!first) {spriteUpdate("happy");}			
 					// Enter your country here, to be warned we you browse from there!
 					// This is for poeple using a VPN or Tor.
-				} else if(response.country == "USA") { 
+				} else if(response.country == "Sweden") { 
 					safe = data.bad;
 					$("#country").html(response.country);
 					$(".api").css("color", "red");
@@ -152,7 +152,7 @@ $(function () {
 		}	
 	}
 
-	$("#christina").click(function() {
+	$("#character").click(function() {
 
 		if($("#links").hasClass("disabled")) {
 				
